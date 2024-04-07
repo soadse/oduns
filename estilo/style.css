@@ -201,6 +201,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;   
 } 
+/* conteudo de obaluae */
+#signos > #containerConteudo > #conteudoObaluae > .obaluae {
+    background-image: url(../imagens/backgroundImage/);
+    background-repeat: no-repeat;
+    background-size: cover;   
+} 
+
 /* conteudo de oxaguia */
 #signos > #containerConteudo > #conteudoOxaguia > .oxaguia {
     background-image: url(../imagens/backgroundImage/oxaguian.gif);
