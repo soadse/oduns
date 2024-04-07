@@ -203,7 +203,7 @@ body {
 } 
 /* conteudo de obaluae */
 #signos > #containerConteudo > #conteudoObaluae > .obaluae {
-    
+    background-image: url(../imagens/backgroundImage/omolu.gif);
     background-repeat: no-repeat;
     background-size: cover;   
 } 
