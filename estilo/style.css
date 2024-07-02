@@ -7,8 +7,6 @@
     font-weight: 400;
     font-style: normal;
 }
-  
-  
 :root {
     --fonte1: "Love Ya Like A Sister", cursive;
 }
@@ -23,6 +21,7 @@
 body {
     width: 100vw;
     height: 100vh;  
+    overflow-x: hidden;
 }
 
 /* TELA DE LOGIN */
@@ -167,126 +166,6 @@ body {
 
 
                 /* campo dos conteudos */
-/* conteudo exu */
-#signos > #containerConteudo > #conteudoExu > .exu {
-    display: flex;
-    justify-content: center;
-    background-image: url(../imagens/backgroundImage/exu.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;  
-    mask-image: linear-gradient(to bottom, white 1%, white, transparent 90%); 
-}
-#signos > #containerConteudo > #conteudoExu > .exu > img {
-    padding-top: 20px;
-    width: 50%;
-}
-/* conteudo iemanja */
-#signos > #containerConteudo > #conteudoIemanja > .iemanja {
-    background-image: url(../imagens/backgroundImage/iemanja.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-/* conteudo de oxum */
-#signos > #containerConteudo > #conteudoOxum > .oxum {
-    background-image: url(../imagens/backgroundImage/oxum.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-/* conteudo de oxossi */
-#signos > #containerConteudo > #conteudoOxossi > .oxossi {
-    background-image: url(../imagens/backgroundImage/oxossi.gif);
-    background-repeat: no-repeat;
-    background-size: cover;   
-} 
-/* conteudo de obaluae */
-#signos > #containerConteudo > #conteudoObaluae > .obaluae {
-    background-image: url(../imagens/backgroundImage/omolu.gif);
-    background-repeat: no-repeat;
-    background-size: cover;   
-} 
-
-/* conteudo de oxaguia */
-#signos > #containerConteudo > #conteudoOxaguia > .oxaguia {
-    background-image: url(../imagens/backgroundImage/oxaguian.gif);
-    background-repeat: no-repeat;
-    background-size: cover;   
-    background-position: center bottom;
-    background-attachment: fixed;
-} 
-/* conteudo de iansa */
-#signos > #containerConteudo > #conteudoIansa > .iansa {
-    background-image: url(../imagens/backgroundImage/iansa.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-} 
-/* conteudo de oxalufa */
-#signos > #containerConteudo > #conteudoOxalufa > .oxalufa {
-    background-image: url(../imagens/backgroundImage/oxalufa.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-} 
-/* conteudo de iansa e exu */
-#signos > #containerConteudo > #conteudoIansaExu > .iansaExu {
-    background-image: url(../imagens/backgroundImage/iansaexu.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center top;
-} 
-/* conteudo de xango */
-#signos > #containerConteudo > #conteudoXango > .xango {
-    background-image: url(../imagens/backgroundImage/xango.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-} 
-/* conteudo de nana */
-#signos > #containerConteudo > #conteudoNana > .nana {
-    display: flex;
-    background-image: url(../imagens/backgroundImage/nana.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-} 
-#signos > #containerConteudo > #conteudoNana > .nana > img {
-    padding-top: 50px;
-    width: 50%;
-}
-/* conteudo de oxumare */
-#signos > #containerConteudo > #conteudoOxumare > .oxumare {
-    display: flex;
-    background-image: url(../imagens/backgroundImage/oxumare.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-} 
-/* conteudo de tempo */
-#signos > #containerConteudo > #conteudoTempo > .tempo {
-    display: flex;
-    display: flex;
-    background-image: url(../imagens/backgroundImage/tempo.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-} 
-#signos > #containerConteudo > #conteudoTempo > .tempo > img {
-    padding-top: 50%;
-    width: 50%;
-}
-/* conteudo de alafia */
-#signos > #containerConteudo > #conteudoAlafia > .alafia {
-    display: flex;
-    justify-content: end;
-    background-image: url(../imagens/backgroundImage/alafia.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-#signos > #containerConteudo > #conteudoAlafia > .alafia > img {
-    padding-top: 50px;
-    width: 50%;
-}
-/* ======================================================== */
 
 
 /* campo coteudo geral */
@@ -305,16 +184,13 @@ body {
 }
 #signos > #containerConteudo > .contAlin > .conteudoImagem {
     width: 100%;
-    mask-image: linear-gradient(to bottom, white, white, white, transparent 100%);
     margin-bottom: 50px;
 }
-/* ======================================================== */
 
 
 /* campo das imagens */
 #signos > #containerConteudo > .contAlin > .mais {
-    display: flex;   
-    justify-content: space-between;
+    width: 100%;
 }
 #signos > #containerConteudo > .contAlin > .mais > img {
     margin-top: 50px;
